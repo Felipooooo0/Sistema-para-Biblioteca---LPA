@@ -1,6 +1,6 @@
 # ////////// EM CONSTRUÇÃO //////////////
 
-- ![IMAGEM](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/CONFIGURAÇAO.PNG?raw=true)
+- ![IMAGEM](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/ENTRAR.PNG?raw=true)
 
 - 
 # Ball Breaker
