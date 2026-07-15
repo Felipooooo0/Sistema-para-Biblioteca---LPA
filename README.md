@@ -1,6 +1,8 @@
 # ////////// EM CONSTRUÇÃO //////////////
 
+- ![IMAGEM](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/CONFIGURAÇAO.PNG?raw=true)
 
+- 
 # Ball Breaker
  **felipe gabriel rossetto / jônatas levi inacio orica
  
