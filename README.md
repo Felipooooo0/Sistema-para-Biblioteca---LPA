@@ -1,3 +1,6 @@
+# /////////////////////////////////////////////////// EM CONTRUÇÃO /////////////////////////////////////////////////////////
+
+
 # Ball Breaker
  **felipe gabriel rossetto / jônatas levi inacio orica
  
@@ -43,38 +46,54 @@ Possui controle total sobre a infraestrutura, usuários e regras de negócio.
 
 # Cliente:
 RF01 - Visualização de Catálogo: O sistema deve permitir que o Cliente visualize a lista de e-books disponíveis, incluindo título, autor e sinopse.
+
 RF02 - Solicitação de Empréstimo: O Cliente deve poder solicitar o empréstimo de um e-book disponível no catálogo.
+
 RF03 - Painel do Leitor (Minha Estante): O sistema deve exibir os e-books com acesso ativo do Cliente, detalhando a data de retirada e o prazo limite de devolução.
+
 RF04 - Devolução Antecipada: O Cliente deve poder encerrar o empréstimo de um livro antes do prazo estipulado, liberando seu limite de acessos.
+
 RF05 - Histórico de Leitura: O sistema deve exibir uma lista de todos os e-books cujo empréstimo já foi finalizado ou expirou para aquele usuário.
 
 
 # Funcionário:
 
 RF06 - Gerenciamento de Solicitações: O Funcionário deve poder visualizar todas as solicitações pendentes e aprová-las ou rejeitá-las.
+
 RF07 - Definição de Prazos de Empréstimo: Ao aprovar uma solicitação, o Funcionário deve obrigatoriamente definir a data limite para a devolução (expiração do acesso).
+
 RF08 - Cadastro de Acervo (CRUD de Livros): O Funcionário deve poder cadastrar novos e-books, atualizar informações existentes (capa, sinopse, link do arquivo) e remover livros obsoletos do catálogo.
+
 RF09 - Revogação Manual de Empréstimo: O Funcionário deve poder encerrar o acesso de um cliente a um e-book ativo de forma manual a qualquer momento.
 
 
 # Admin:
 
 RF10 - Gestão de Usuários (CRUD de Usuários): O Administrador deve poder criar, visualizar, editar e excluir contas de Clientes, Funcionários e outros Administradores.
+
 RF11 - Auditoria de Catálogo: O Administrador deve poder auditar todas as alterações feitas no catálogo de livros por outros funcionários.
+
 RF12 - Visualização de Logs: O Administrador deve ter acesso exclusivo a uma tela para visualizar a tabela Historico_Mudancas (quem fez o quê, quando e onde).
 
 
 # Backend:
 
 RF13 - Verificação e Revogação Automática: O sistema deve executar uma rotina diária (ou em tempo real) para identificar empréstimos ativos que ultrapassaram a data de devolução, alterando seu status para "Expirado/Devolvido" e bloqueando o acesso do cliente ao link/arquivo.
+
 RF14 - Registro de Auditoria (Logs automáticos): O sistema deve registrar automaticamente na tabela Historico_Mudancas qualquer ação de criação, edição, exclusão ou alteração de status realizada por Funcionários e Administradores.
 
 # Requisitos não funcionais:
 
 RNF01 - Criptografia de Senhas: Todas as senhas dos usuários devem ser armazenadas no banco de dados utilizando algoritmos de hash seguros (ex: bcrypt ou Argon2). O sistema nunca deve armazenar senhas em texto puro.
+
 RNF02 - Controle de Acesso Baseado em Perfis (RBAC): O sistema deve garantir estritamente que um Cliente não acesse funções de Funcionário/Admin, e que um Funcionário não acesse funções exclusivas de Admin (como logs e gestão de usuários).
+
 RNF03 - Proteção de Arquivos (Links de Acesso): O link do e-book armazenado na tabela Livros não deve ser exposto publicamente. O acesso ao arquivo deve ser validado via token temporário ou assinatura, garantindo que apenas usuários com empréstimo ativo possam abrir o documento.
+
 RNF04 - Integridade Referencial no Banco de Dados: O banco de dados deve utilizar chaves estrangeiras (Foreign Keys) bem estruturadas para garantir que a exclusão de um usuário ou livro trate corretamente os empréstimos ativos (ex: impedir exclusão física de livros que possuem empréstimos ativos).
+
 RNF05 - Imutabilidade dos Logs: A tabela Historico_Mudancas deve ser estritamente de "inserção apenas" (append-only). Nenhum usuário (nem mesmo o Administrador) deve ter permissão dentro da aplicação para editar ou deletar registros dessa tabela.
+
 RNF06 - Disponibilidade da Rotina Back-end: A automação de devolução (cron job / script diário) deve ser tolerante a falhas, gerando alertas para a equipe de TI caso a execução diária falhe.
+
 RNF07 - Design Responsivo: A interface do sistema deve ser adaptável, permitindo que os Clientes leiam ou solicitem livros tanto em computadores quanto em dispositivos móveis (smartphones e tablets).
