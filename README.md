@@ -34,11 +34,7 @@ Possui controle total sobre a infraestrutura, usuários e regras de negócio.
 # 4. Automações do Sistema 
  **Devolução Automática:** Um script que roda diariamente (ou em tempo real) verificando as datas de devolução. Se o prazo de um empréstimo estourou, o sistema altera o status para "Devolvido" e bloqueia o acesso do cliente ao e-book automaticamente.
 
-# 5. Banco de dados
-1. `Usuarios`: Armazena apenas os dados cadastrais essenciais de Clientes, Funcionários e Admins (ex: nome, email, senha criptografada e a coluna de `nivel_acesso`).
-2. `Livros`: Armazena os metadados do acervo de e-books (Título, Autor, Caminho do Arquivo/Link, Status de disponibilidade).
-3. `Emprestimos`: Tabela transacional que conecta `Usuarios` e `Livros` (gerenciando o acesso digital temporário). Contém `data_solicitacao`, `data_aprovacao`, `data_devolucao` e `status` (Pendente, Ativo, Expirado/Devolvido).
-4. `Historico_Mudancas`): Tabela de auditoria isolada. Registra exclusivamente as ações gerenciais feitas por Funcionários e Admins. Armazena o ID do funcionário, a ação realizada (ex: "Aprovou empréstimo X", "Deletou livro Y", "Criou novo funcionário"), a tabela afetada e a data/hora exata do evento.
+# 5. Banco de dados: MySql
 
 # Requisitos funcionais:
 
