@@ -1,7 +1,7 @@
 # Ball Breaker
-# felipe gabriel rossetto / jônatas levi inacio orica
-# sistema para um biblioteca *Digital*
-# inicialmente estamos pensando em usar o que foi feito em aula: python, FastApi e MySql
+ **felipe gabriel rossetto / jônatas levi inacio orica
+ **sistema para um biblioteca *Digital*
+ **inicialmente estamos pensando em usar o que foi feito em aula: python, FastApi e MySql
 
 #IDEIAS feitas por jonatas e felipe,foi utilizado IA apenas para corrigir e arrumar de forma agradavel no readMe;
 # O sistema é dividido em três níveis de acesso, garantindo segurança e organização do fluxo de trabalho:
