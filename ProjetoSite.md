@@ -4,10 +4,10 @@ Aqui a ideia foi de mostrar a tela que quando o usuario entrar ja ter ela de car
 ![IMAGEM](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/PAGINA%20INICIAL%20pt%202.png)
 
 # Cadastro Cliente
-
+Aqui é a parte do cadastro de clientes, contendo para preenchimento o nome completo,email,telefone,CPF,data de nascimento com duas opções abaixo para outras paginas
 ![IMAGEM](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/CRIAR%20CONTA.png)
 
-
+#
 
 
 
