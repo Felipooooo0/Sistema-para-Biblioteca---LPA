@@ -40,8 +40,6 @@ Possui controle total sobre a infraestrutura, usuários e regras de negócio.
 3. `Emprestimos`: Tabela transacional que conecta `Usuarios` e `Livros` (gerenciando o acesso digital temporário). Contém `data_solicitacao`, `data_aprovacao`, `data_devolucao` e `status` (Pendente, Ativo, Expirado/Devolvido).
 4. `Historico_Mudancas`): Tabela de auditoria isolada. Registra exclusivamente as ações gerenciais feitas por Funcionários e Admins. Armazena o ID do funcionário, a ação realizada (ex: "Aprovou empréstimo X", "Deletou livro Y", "Criou novo funcionário"), a tabela afetada e a data/hora exata do evento.
 
-/////////////////////////////////////////////////// EM CONTRUÇÃO /////////////////////////////////////////////////////////
-
 # Requisitos funcionais:
 
 # Cliente:
