@@ -5,7 +5,7 @@ Aqui a ideia foi de mostrar a tela que quando o usuario entrar ja ter ela de car
 
 # Cadastro Cliente
 
-![IMAGEM](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/PAGINA%20INICIAL%20pt%202.png)
+![IMAGEM](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/CRIAR%20CONTA.png)
 
 
 
