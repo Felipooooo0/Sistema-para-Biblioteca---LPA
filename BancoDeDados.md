@@ -4,6 +4,10 @@
 3. Emprestimos: Tabela transacional que conecta Usuarios e Livros (gerenciando o acesso digital temporário). Contém data_solicitacao, data_aprovacao, data_devolucao e status (Pendente, Ativo, Expirado/Devolvido).
 4. Historico_Mudancas): Tabela de auditoria isolada. Registra exclusivamente as ações gerenciais feitas por Funcionários e Admins. Armazena o ID do funcionário, a ação realizada (ex: "Aprovou empréstimo X", "Deletou livro Y", "Criou novo funcionário"), a tabela afetada e a data/hora exata do evento.
 
+5. Usuarios (1) para Emprestimos (N)
+6. Livros (1) para Emprestimos (N)
+7. Usuarios (1) para Historico_Mudancas (N)
+
 # Representação do DER da biblioteca
 ![Página Inicial - Parte 1](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/WhatsApp%20Image%202026-07-15%20at%2020.06.35.jpeg)
 
