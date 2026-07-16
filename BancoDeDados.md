@@ -4,6 +4,7 @@ create database BallBreaker_Biblioteca;
 use BallBreaker_Biblioteca;
  
 -- Tabela usuario
+
 CREATE TABLE Usuario (
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
@@ -14,6 +15,7 @@ CREATE TABLE Usuario (
 );
  
 -- Tabela livro
+
 CREATE TABLE Livro (
     id_livro INT AUTO_INCREMENT PRIMARY KEY,
     titulo VARCHAR(255) NOT NULL,
@@ -23,6 +25,7 @@ CREATE TABLE Livro (
 );
  
 -- Tabela emprestimo
+
 CREATE TABLE Emprestimo (
     id_emprestimo INT AUTO_INCREMENT PRIMARY KEY,
     id_usuario INT NOT NULL,
@@ -36,6 +39,7 @@ CREATE TABLE Emprestimo (
 );
  
 -- Tabela historico
+
 CREATE TABLE Historico_Mudancas (
     id_historico INT AUTO_INCREMENT PRIMARY KEY,
     id_usuario_autor INT NOT NULL,
@@ -50,14 +54,17 @@ CREATE TABLE Historico_Mudancas (
 -- Criando as restrições (check)
  
 -- O nivel de acesso
+
 ALTER TABLE Usuario
 ADD CONSTRAINT chk_nivel_acesso 
 CHECK (nivel_acesso IN ('cliente', 'funcio', 'admin'));
  
 -- Emprestimo com data menor ou igual
+
 ALTER TABLE Emprestimo
 ADD CONSTRAINT chk_datas_emprestimo 
 CHECK (data_devolucao >= data_solicitacao);
+
 # Representação do DER da biblioteca
 ![Página Inicial - Parte 1](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/WhatsApp%20Image%202026-07-15%20at%2020.06.35.jpeg)
 
