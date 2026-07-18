@@ -7,9 +7,9 @@ A página inicial foi projetada para ser o primeiro ponto de contato do usuário
 
 
 # Leitura dos Ebooks
+![Criar Conta Funcionário - Dados](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183034732.png)
+![Criar Conta Funcionário - Dados](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183022175.png)
 
-
-https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183034732.png
 ---
 
 # Cadastro de Cliente
