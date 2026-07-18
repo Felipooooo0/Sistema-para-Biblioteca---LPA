@@ -8,6 +8,8 @@ A página inicial foi projetada para ser o primeiro ponto de contato do usuário
 
 # Leitura dos Ebooks
 
+
+https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183034732.png
 ---
 
 # Cadastro de Cliente
@@ -32,7 +34,7 @@ Interface dedicada ao cadastramento de colaboradores no sistema, contendo o flux
 
 Página de autenticação no sistema. Após a conclusão do cadastro, o usuário é redirecionado a esta interface para inserir suas credenciais e acessar o seu respectivo perfil.
 
-![Entrar](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183102780.png)
+![Entrar](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183034732.png)
 
 
 
