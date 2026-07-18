@@ -31,7 +31,6 @@ Interface dedicada ao cadastramento de colaboradores no sistema, contendo o flux
 # Entrar (Login)
 
 Página de autenticação no sistema. Após a conclusão do cadastro, o usuário é redirecionado a esta interface para inserir suas credenciais e acessar o seu respectivo perfil.
-# modificar
 
 ![Entrar]()
 
@@ -40,7 +39,7 @@ Página de autenticação no sistema. Após a conclusão do cadastro, o usuário
 # Esqueceu a senha
 
 ![Criar Conta Funcionário - Dados](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183115756.png)
-![Criar Conta Funcionário - Dados]()
+![Criar Conta Funcionário - Dados](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183136653.png)
 ![Criar Conta Funcionário - Dados]()
 
 ---
