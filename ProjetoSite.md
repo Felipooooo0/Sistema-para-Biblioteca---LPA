@@ -5,6 +5,9 @@ A página inicial foi projetada para ser o primeiro ponto de contato do usuário
 ![Página Inicial - Parte 1](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/raw/main/DocumentoProjeto/assets/PAGINA%20INICIAL%20pt%201.png)
 ![Página Inicial - Parte 2](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/raw/main/DocumentoProjeto/assets/PAGINA%20INICIAL%20pt%202.png)
 
+
+# Leitura dos Ebooks
+
 ---
 
 # Cadastro de Cliente
@@ -28,8 +31,13 @@ Interface dedicada ao cadastramento de colaboradores no sistema, contendo o flux
 # Entrar (Login)
 
 Página de autenticação no sistema. Após a conclusão do cadastro, o usuário é redirecionado a esta interface para inserir suas credenciais e acessar o seu respectivo perfil.
+# modificar
 
-![Entrar](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/raw/main/DocumentoProjeto/assets/entreararararar.png)
+![Entrar]()
+
+
+
+# Esqueceu a senha
 
 ---
 
@@ -54,3 +62,9 @@ Espaço dedicado à exibição das obras literárias que foram marcadas e salvas
 Painel onde ficam centralizadas e disponíveis para consulta as informações e dados pessoais inseridos pelo cliente durante o seu cadastro.
 
 ![Configurações](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/raw/main/DocumentoProjeto/assets/CONFIGURAÇAO.png)
+
+# Perfil Funcionario
+
+# Criação / Publicação de livros
+
+# Alteração Livros / Excluir Livros
