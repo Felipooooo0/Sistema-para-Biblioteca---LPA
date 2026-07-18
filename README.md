@@ -25,13 +25,13 @@ e;
 
 # Requisitos funcionais:
 
-RF01 - Visualização de Catálogo: O sistema deve permitir que o Cliente visualize a lista de e-books disponíveis, incluindo título, autor e sinopse.
+RF01 -  O sistema deve permitir que o Cliente visualize a lista de e-books disponíveis, incluindo título, autor e sinopse.
 
-RF02 - Painel do Leitor (Minha Estante): O sistema deve exibir os e-books com acesso ativo do Cliente.
+RF02 -  O sistema deve exibir os e-books com acesso ativo do Cliente.
 
-RF03 - Histórico de Leitura: O sistema deve exibir uma lista de todos os e-books cujo empréstimo já foi finalizado ou expirou para aquele usuário.
+RF03 -  O sistema deve exibir uma lista de todos os e-books cujo empréstimo já foi finalizado ou expirou para aquele usuário.
 
-RF04 - Cadastro de Acervo: O Funcionário deve poder cadastrar novos e-books, atualizar informações existentes (capa, sinopse, link do arquivo) e remover livros do catálogo.
+RF04 -  O Funcionário deve poder cadastrar novos e-books, atualizar informações existentes (capa, sinopse, link do arquivo) e remover livros do catálogo.
 
 RF05 - o sistema deve permitir que o usuario adicione o livro em seus favoritos.
 
@@ -41,13 +41,13 @@ RF07 - a
 
 # Requisitos não funcionais:
 
-RNF01 - Criptografia de Senhas: Todas as senhas dos usuários devem ser armazenadas no banco de dados utilizando algoritmos de hash seguros (ex: bcrypt ou Argon2). O sistema nunca deve armazenar senhas em texto puro.
+RNF01 - Todas as senhas dos usuários devem ser armazenadas no banco de dados utilizando algoritmos de hash seguros (ex: bcrypt ou Argon2). O sistema nunca deve armazenar senhas em texto puro.
 
-RNF02 - Controle de Acesso Baseado em Perfis: O sistema deve garantir estritamente que um Cliente não acesse funções de Funcionário/Admin, e que um Funcionário não acesse funções exclusivas de Admin
+RNF02 -  O sistema deve garantir estritamente que um Cliente não acesse funções de Funcionário/Admin, e que um Funcionário não acesse funções exclusivas de Admin
 
-RNF03 - Proteção de Arquivos : O link do e-book armazenado na tabela Livros não deve ser exposto publicamente. O acesso ao arquivo deve ser validado via token temporário ou assinatura, garantindo que apenas usuários com empréstimo ativo possam abrir o documento.
+RNF03 -  O link do e-book armazenado na tabela Livros não deve ser exposto publicamente. O acesso ao arquivo deve ser validado via token temporário ou assinatura, garantindo que apenas usuários com empréstimo ativo possam abrir o documento.
 
-RNF04 - Integridade Referencial no Banco de Dados: O banco de dados deve utilizar chaves estrangeiras (Foreign Keys) bem estruturadas para garantir que a exclusão de um usuário ou livro.
+RNF04 -  O banco de dados deve utilizar chaves estrangeiras (Foreign Keys) bem estruturadas para garantir que a exclusão de um usuário ou livro.
 
 RNF05 - As imagens e pdfs devem ser armazenadas numa URL para não ter fotos dentro do banco de dados.
 
