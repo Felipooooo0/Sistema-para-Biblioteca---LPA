@@ -23,7 +23,7 @@ Esta seção é destinada ao registro de novos clientes no sistema. O formulári
 
 Interface dedicada ao cadastramento de colaboradores no sistema, contendo o fluxo de validação de credenciais e preenchimento de dados corporativos e pessoais.
 
-![Criar Conta Funcionário]()
+![Criar Conta Funcionário](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183210575.png)
 ![Criar Conta Funcionário - Dados](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183224663.png)
 
 ---
