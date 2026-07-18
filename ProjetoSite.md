@@ -42,6 +42,11 @@ Página de autenticação no sistema. Após a conclusão do cadastro, o usuário
 ![Criar Conta Funcionário - Dados](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183136653.png)
 ![Criar Conta Funcionário - Dados]()
 
+
+![Criar Conta Funcionário - Dados]()
+
+![Criar Conta Funcionário - Dados]()
+
 ---
 
 # Perfil do Cliente
