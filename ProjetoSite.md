@@ -32,7 +32,7 @@ Interface dedicada ao cadastramento de colaboradores no sistema, contendo o flux
 
 Página de autenticação no sistema. Após a conclusão do cadastro, o usuário é redirecionado a esta interface para inserir suas credenciais e acessar o seu respectivo perfil.
 
-![Entrar]()
+![Entrar](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_183102780.png)
 
 
 
