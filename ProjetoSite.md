@@ -17,7 +17,7 @@ A página inicial foi projetada para ser o primeiro ponto de contato do usuário
 Esta seção é destinada ao registro de novos clientes no sistema. O formulário exige o preenchimento de dados essenciais, tais como: nome completo, e-mail, telefone, CPF e data de nascimento. Na parte inferior da interface, há duas opções de navegação que direcionam o usuário para outras páginas. Após o preenchimento dos dados cadastrais básicos, o fluxo segue para a etapa de criação de senha.
 
 ![Criar Conta](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-19_230023849.png)
-![Criar Conta - Acesso](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/raw/main/DocumentoProjeto/assets/CRIAR%20CONTA%20ACESSO.png)
+![Criar Conta - Acesso](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-19_230038434.png)
 
 ---
 
