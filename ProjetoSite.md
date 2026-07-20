@@ -80,3 +80,6 @@ Painel onde ficam centralizadas e disponíveis para consulta as informações e 
 
 
 # Alteração Livros / Excluir Livros
+![Configurações](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_185348246.png)
+
+
