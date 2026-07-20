@@ -74,7 +74,9 @@ Painel onde ficam centralizadas e disponíveis para consulta as informações e 
 ![Configurações](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/raw/main/DocumentoProjeto/assets/CONFIGURAÇAO.png)
 
 # Perfil Funcionario
-
 # Criação / Publicação de livros
+
+![Configurações](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-18_185226485.png)
+
 
 # Alteração Livros / Excluir Livros
