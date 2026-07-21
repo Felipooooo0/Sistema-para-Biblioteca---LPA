@@ -58,13 +58,13 @@ O sistema será dividido em diferentes níveis de acesso, garantindo segurança 
 
 | Código | Descrição | Status |
 |--------|-----------|--------|
-| RF01 | O sistema deve permitir que o cliente visualize os e-books disponíveis, incluindo título, autor e sinopse. | ✔ |
-| RF02 | O sistema deve exibir os e-books com acesso ativo do cliente. | ✔ |
-| RF03 | O sistema deve exibir o histórico de livros já lidos pelo usuário. | ✔ |
-| RF04 | O funcionário deve cadastrar, editar e remover e-books do catálogo. | Em desenvolvimento |
-| RF05 | O sistema deve permitir que o usuário adicione livros aos favoritos. | Em desenvolvimento |
-| RF06 | O sistema deve permitir que o usuário acesse o conteúdo do e-book para leitura. | Em desenvolvimento |
-| RF07 | Requisito ainda não definido. | Pendente |
+| RF01 | O sistema deve permitir que o cliente visualize os e-books disponíveis, incluindo título, autor e sinopse. 
+| RF02 | O sistema deve exibir os e-books com acesso ativo do cliente. 
+| RF03 | O sistema deve exibir o histórico de livros já lidos pelo usuário.
+| RF04 | O funcionário deve cadastrar, editar e remover e-books do catálogo. 
+| RF05 | O sistema deve permitir que o usuário adicione livros aos favoritos. 
+| RF06 | O sistema deve permitir que o usuário acesse o conteúdo do e-book para leitura. 
+| RF07 | Requisito ainda não definido. 
 
 ---
 
