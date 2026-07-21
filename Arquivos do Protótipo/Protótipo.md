@@ -1,8 +1,3 @@
-# Interface do Sistema
-
-A seguir são apresentadas as principais telas desenvolvidas para o sistema de Biblioteca Virtual.
-
----
 
 ## Página Inicial (Home)
 
