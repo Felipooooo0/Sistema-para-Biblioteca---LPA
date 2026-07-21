@@ -48,12 +48,6 @@ O sistema será dividido em diferentes níveis de acesso, garantindo segurança 
 
 ---
 
-# Banco de Dados
-
-- MySQL
-
----
-
 # Requisitos Funcionais
 
 | Código | Descrição | Status |
