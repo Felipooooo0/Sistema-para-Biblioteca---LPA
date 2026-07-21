@@ -29,8 +29,8 @@ O sistema será dividido em diferentes níveis de acesso, garantindo segurança 
 
 ### Funcionalidades
 
-- Visualizar o catálogo de e-books disponíveis. **(Concluído)**
-- Consultar o histórico de leitura. **(Concluído)**
+- Visualizar o catálogo de e-books disponíveis. 
+- Consultar o histórico de leitura. 
 - Adicionar livros aos favoritos.
 - Acessar o conteúdo dos e-books para leitura.
 
@@ -85,6 +85,8 @@ O sistema será dividido em diferentes níveis de acesso, garantindo segurança 
 - Python
 - FastAPI
 - MySQL
+- html
+  
 
 ---
 
