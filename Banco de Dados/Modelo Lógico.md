@@ -1,1 +1,1 @@
-
+# Diagrama DER (Modelo Lógico)
