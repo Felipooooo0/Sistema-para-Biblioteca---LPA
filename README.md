@@ -1,54 +1,93 @@
-# ////////// EM CONSTRUÇÃO //////////////
-
-
-- 
 # Ball Breaker
- **felipe gabriel rossetto / jônatas levi inacio orica
- 
- **sistema para um biblioteca *Virtual*
- 
- **inicialmente estamos pensando em usar o que foi feito em aula: python, FastApi e MySql
 
-#IDEIAS feitas por jonatas e felipe,foi utilizado IA apenas para corrigir e arrumar de forma agradavel no readM
-e;
-# O sistema é dividido em três níveis de acesso, garantindo segurança e organização do fluxo de trabalho:
-# 1. Cliente 
+> **Projeto em construção**
 
- **Catálogo Digital:** Visualizar todos os e-books disponíveis na plataforma. // feito
- **Histórico de Leitura:** Registro de todos os e-books já lidos na plataforma. //feito
+## Integrantes
 
-# 2. Funcionário
+- Felipe Gabriel Rossetto
+- Jônatas Levi Inacio Orica
 
- **Gestão de Acervo Digital:** Adicionar novos e-books ao catálogo, atualizar sinopses/capas e excluir livros obsoletos. //feito porem falta
+## Sobre o Projeto
 
-# 5. Banco de dados: MySql
+O **Ball Breaker** é um sistema para gerenciamento de uma **biblioteca virtual**, permitindo que usuários acessem um catálogo digital de e-books e que funcionários realizem o gerenciamento do acervo.
 
-# Requisitos funcionais:
+Inicialmente, o projeto será desenvolvido utilizando as tecnologias apresentadas em aula:
 
-RF01 -  O sistema deve permitir que o Cliente visualize a lista de e-books disponíveis, incluindo título, autor e sinopse.
+- Python
+- FastAPI
+- MySQL
 
-RF02 -  O sistema deve exibir os e-books com acesso ativo do Cliente.
+> As ideias do projeto foram desenvolvidas por Felipe e Jônatas. A Inteligência Artificial foi utilizada apenas para revisão e organização deste README.
 
-RF03 -  O sistema deve exibir uma lista de todos os e-books cujo empréstimo já foi finalizado ou expirou para aquele usuário.
+---
 
-RF04 -  O Funcionário deve poder cadastrar novos e-books, atualizar informações existentes (capa, sinopse, link do arquivo) e remover livros do catálogo.
+# Estrutura do Sistema
 
-RF05 - o sistema deve permitir que o usuario adicione o livro em seus favoritos.
+O sistema será dividido em diferentes níveis de acesso, garantindo segurança e organização.
 
-RF06 - o sistema deve permitir o usuario conseguir acesse o conteudo para a leitura.
+## Cliente
 
-RF07 - a
+### Funcionalidades
 
-# Requisitos não funcionais:
+- Visualizar o catálogo de e-books disponíveis. **(Concluído)**
+- Consultar o histórico de leitura. **(Concluído)**
+- Adicionar livros aos favoritos.
+- Acessar o conteúdo dos e-books para leitura.
 
-RNF01 - Todas as senhas dos usuários devem ser armazenadas no banco de dados utilizando algoritmos de hash seguros (ex: bcrypt ou Argon2). O sistema nunca deve armazenar senhas em texto puro.
+---
 
-RNF02 -  O sistema deve garantir estritamente que um Cliente não acesse funções de Funcionário/Admin, e que um Funcionário não acesse funções exclusivas de Admin
+## Funcionário
 
-RNF03 -  O link do e-book armazenado na tabela Livros não deve ser exposto publicamente. O acesso ao arquivo deve ser validado via token temporário ou assinatura, garantindo que apenas usuários com empréstimo ativo possam abrir o documento.
+### Funcionalidades
 
-RNF04 -  O banco de dados deve utilizar chaves estrangeiras (Foreign Keys) bem estruturadas para garantir que a exclusão de um usuário ou livro.
+- Adicionar novos e-books ao catálogo.
+- Atualizar informações dos livros (sinopse, capa e arquivo).
+- Remover livros do catálogo.
 
-RNF05 - As imagens e pdfs devem ser armazenadas numa URL para não ter fotos dentro do banco de dados.
+**Status:** Implementação iniciada.
 
+---
 
+# Banco de Dados
+
+- MySQL
+
+---
+
+# Requisitos Funcionais
+
+| Código | Descrição | Status |
+|--------|-----------|--------|
+| RF01 | O sistema deve permitir que o cliente visualize os e-books disponíveis, incluindo título, autor e sinopse. | ✔ |
+| RF02 | O sistema deve exibir os e-books com acesso ativo do cliente. | ✔ |
+| RF03 | O sistema deve exibir o histórico de livros já lidos pelo usuário. | ✔ |
+| RF04 | O funcionário deve cadastrar, editar e remover e-books do catálogo. | Em desenvolvimento |
+| RF05 | O sistema deve permitir que o usuário adicione livros aos favoritos. | Em desenvolvimento |
+| RF06 | O sistema deve permitir que o usuário acesse o conteúdo do e-book para leitura. | Em desenvolvimento |
+| RF07 | Requisito ainda não definido. | Pendente |
+
+---
+
+# Requisitos Não Funcionais
+
+| Código | Descrição |
+|--------|-----------|
+| RNF01 | As senhas dos usuários devem ser armazenadas utilizando algoritmos seguros de hash, como **bcrypt** ou **Argon2**, nunca em texto puro. |
+| RNF02 | O sistema deve garantir controle de acesso por níveis de permissão, impedindo que clientes acessem funcionalidades de funcionários ou administradores. |
+| RNF03 | O link do e-book não deve ser exposto publicamente. O acesso deverá ocorrer por meio de token temporário ou assinatura válida. |
+| RNF04 | O banco de dados deverá utilizar **Foreign Keys** para garantir integridade referencial entre as tabelas. |
+| RNF05 | As imagens de capas e os arquivos PDF deverão ser armazenados externamente (URL ou serviço de armazenamento), evitando armazená-los diretamente no banco de dados. |
+
+---
+
+# Tecnologias
+
+- Python
+- FastAPI
+- MySQL
+
+---
+
+# Status do Projeto
+
+Atualmente o projeto encontra-se em desenvolvimento e novas funcionalidades serão adicionadas conforme o andamento da disciplina.
