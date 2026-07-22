@@ -18,4 +18,4 @@ Catalogo - ID_catalogo (PK)
 ![Página Inicial - Parte 2](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem_2026-07-16_195729929.png)
 
 # 3* etapa Modelo Logico
-![Página Inicial - Parte 2](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/Lógico_1.png)
+![Página Inicial - Parte 2](https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/Captura%20de%20tela%202026-07-21%20152422.png)
