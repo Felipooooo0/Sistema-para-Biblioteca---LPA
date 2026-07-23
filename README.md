@@ -58,7 +58,10 @@ O sistema será dividido em diferentes níveis de acesso, garantindo segurança 
 | RF04 | O funcionário deve cadastrar, editar e remover e-books do catálogo. 
 | RF05 | O sistema deve permitir que o usuário adicione livros aos favoritos. 
 | RF06 | O sistema deve permitir que o usuário acesse o conteúdo do e-book para leitura. 
-| RF07 | Requisito ainda não definido. 
+| RF07 | O sistema deve permitir que o usuário avalie os livros lidos.
+| RF08 | O sistema deve permitir que o usuário consiga mudar sua senha.
+| RF09 | O sistema deve impedir o download dos e-books pelos usuários.
+| RF10 | O sistema deve garantir que os funcionários possuam todas as permissões disponíveis para os clientes.
 
 ---
 
@@ -79,7 +82,7 @@ O sistema será dividido em diferentes níveis de acesso, garantindo segurança 
 - Python
 - FastAPI
 - MySQL
-- html
+- HTML
   
 
 ---
