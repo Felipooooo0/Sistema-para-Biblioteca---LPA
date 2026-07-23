@@ -88,6 +88,16 @@ Tela onde o cliente pode consultar todos os livros marcados como favoritos para 
 
 ---
 
+## Avaliação Livros
+
+Esta interface permite que usuário realize uma avaliação dos livros lidos.
+
+<p align="center">
+  <img src="https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/imagem%20(4).png" width="420">
+</p>
+
+---
+
 ## Configurações do Cliente
 
 Painel utilizado para visualizar e editar as informações pessoais cadastradas no sistema.
