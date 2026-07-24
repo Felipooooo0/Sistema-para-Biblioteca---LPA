@@ -69,11 +69,11 @@ O sistema será dividido em diferentes níveis de acesso, garantindo segurança 
 
 | Código | Descrição |
 |--------|-----------|
-| RNF01 | As senhas dos usuários devem ser armazenadas utilizando algoritmos seguros de hash, como **bcrypt** ou **Argon2**, nunca em texto puro. |
+| RNF01 | As senhas dos usuários devem ser armazenadas utilizando algoritmos seguros de hash, nunca em texto puro. |
 | RNF02 | O sistema deve garantir controle de acesso por níveis de permissão, impedindo que clientes acessem funcionalidades de funcionários ou administradores. |
 | RNF03 | O link do e-book não deve ser exposto publicamente. O acesso deverá ocorrer por meio de token temporário ou assinatura válida. |
-| RNF04 | O banco de dados deverá utilizar **Foreign Keys** para garantir integridade referencial entre as tabelas. |
-| RNF05 | As imagens de capas e os arquivos PDF deverão ser armazenados externamente (URL ou serviço de armazenamento), evitando armazená-los diretamente no banco de dados. |
+| RNF04 | O banco de dados deverá utilizar Foreign Keys para garantir integridade referencial entre as tabelas. |
+| RNF05 | As imagens de capas e os arquivos PDF deverão ser armazenados externamente, evitando armazená-los diretamente no banco de dados. |
 
 ---
 
