@@ -69,11 +69,11 @@ O sistema será dividido em diferentes níveis de acesso, garantindo segurança 
 
 | Código | Descrição |
 |--------|-----------|
-| RNF01 | As senhas dos usuários devem ser armazenadas utilizando algoritmos seguros de hash, nunca em texto puro. |
-| RNF02 | O sistema deve garantir controle de acesso por níveis de permissão, impedindo que clientes acessem funcionalidades de funcionários ou administradores. |
-| RNF03 | O link do e-book não deve ser exposto publicamente. O acesso deverá ocorrer por meio de token temporário ou assinatura válida. |
-| RNF04 | O banco de dados deverá utilizar Foreign Keys para garantir integridade referencial entre as tabelas. |
-| RNF05 | As imagens de capas e os arquivos PDF deverão ser armazenados externamente, evitando armazená-los diretamente no banco de dados. |
+| RNF01 | As senhas devem ser armazenadas com hash bcrypt ou Argon2id (parâmetros conforme RFC 9106). Nunca em texto puro; salt único por usuário. |
+| RNF02 | Controle de acesso via RBAC com dois papéis (cliente, funcionario), sendo o papel funcionario um superconjunto das permissões de cliente. Autenticação por JWT com token de acesso de curta duração (ex.: 30 min) e verificação via dependency injection do FastAPI.|
+| RNF03 | O acesso ao arquivo do e-book deve ocorrer por URL assinada temporária (presigned URL), padrão compatível com API, com validade máxima de 15 minutos por link e renovação sob demanda. O link nunca deve ser exposto de forma pública ou permanente. |
+| RNF04 | O banco de dados deve usar MySQL 8.0+,(necessária para suporte a Foreign Keys), com regras explícitas de ON DELETE/ON UPDATE por relacionamento.|
+| RNF05 | Formatos aceitos: PDF para e-boos,JPG/PNG/WEBP para capas . |
 
 ---
 
