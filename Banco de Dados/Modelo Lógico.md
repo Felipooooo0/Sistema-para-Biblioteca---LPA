@@ -1,7 +1,7 @@
 # Diagrama DER (Modelo Lógico)
 
 <p align="center">
-  <img width="920" height="808" alt="image" src="https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/Captura%20de%20tela%202026-07-23%20154445.png" />
+  <img width="920" height="808" alt="image" src="https://github.com/Felipooooo0/Sistema-para-Biblioteca---LPA/blob/main/DocumentoProjeto/assets/Captura%20de%20tela%202026-08-10%20174839.png" />
 </p>
 
 <p align="center">
